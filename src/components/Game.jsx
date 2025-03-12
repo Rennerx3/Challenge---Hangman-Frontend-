@@ -29,6 +29,7 @@ const Game = ({ gameData }) => {
     }, [gameData]);
 
     console.log('getData', getData);
+    console.log('realTimeData', realTimeData);
     
 
     return (
@@ -38,7 +39,7 @@ const Game = ({ gameData }) => {
                 <h2>Guess '{getData.playerName}'</h2>
                 <div className="game-main">
                     <span className="guessed">{realTimeData.guessedLetters || getData.guessedLetters || 'Loading...'}</span>
-                    <input type="text" value={letter} placeholder="Enter your guess" onChange={(e) => setLetter(e.target.value)} onKeyDown={(e) => {e.key === 'Enter' && handleGuess(letter, gameData, setRealTimeData); setLetter('')}}/>
+                    <input type="text" value={letter} placeholder="Enter your guess" onChange={(e) => { const value = e.target.value; if (/^[a-zA-Z]*$/.test(value)) setLetter(value) }} onKeyDown={(e) => {e.key === 'Enter' && handleGuess(letter, gameData, setRealTimeData); setLetter('')}}/>
                     <button onClick={() => {
                         handleGuess(letter, gameData, setRealTimeData);
                         setLetter('');
