@@ -1,12 +1,34 @@
-# React + Vite
+# Proyecto: Juego de Ahorcado | Hangman
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Requisitos previos
 
-Currently, two official plugins are available:
+Antes de poder correr localmente el juego necesitarás tener isntalados los siguientes programas:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Node.js**: Vite requiere Node.js, descárgalo e instálalo desde [aquí](https://nodejs.org/).
+- **Git**: Es necesario para clonar el repo. Descárgalo e instálalo desde [aquí](https://git-scm.com/downloads).
 
-## Expanding the ESLint configuration
+## Paso a paso para ejecutar el proyecto localmente
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clonar el repositorio
+
+Abre una terminal y clona el repositorio con el siguiente comando:
+
+'git clone https://github.com/Rennerx3/Challenge---Hangman-Frontend-.git'
+
+### 2. Una vez que el repositorio de encuentre clonado, instalar dependencias
+
+En la terminal en el directorio del proyecto ejecuta el siguiente comando:
+
+'npm install'
+
+### 3. Una vez instaladas las dependencias ejecuta el proyecto
+
+Ejecuta el siguiente comando:
+
+'npm run dev'
+
+Esto iniciará el servidor local (desarrollo) y devolverá una url como la siguiente: http://localhost:5174
+
+### 4. Entrar al link proporcionado
+
+Una vez que hayas puesto el último comando, accede al link proporcionado y empieza a utilizar la aplicación!
