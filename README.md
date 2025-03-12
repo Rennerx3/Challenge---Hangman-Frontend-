@@ -2,7 +2,7 @@
 
 ## Requisitos previos
 
-Antes de poder correr localmente el juego necesitarás tener isntalados los siguientes programas:
+Antes de poder correr localmente el juego necesitarás tener instalados los siguientes programas:
 
 - **Node.js**: Vite requiere Node.js, descárgalo e instálalo desde [aquí](https://nodejs.org/).
 - **Git**: Es necesario para clonar el repo. Descárgalo e instálalo desde [aquí](https://git-scm.com/downloads).
@@ -27,7 +27,7 @@ Ejecuta el siguiente comando:
 
 'npm run dev'
 
-Esto iniciará el servidor local (desarrollo) y devolverá una url como la siguiente: http://localhost:5174
+Esto iniciará el servidor local (desarrollo) y devolverá una url como la siguiente: http://localhost:5173
 
 ### 4. Entrar al link proporcionado
 
